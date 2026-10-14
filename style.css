@@ -1,0 +1,55 @@
+body {
+  font-family: 'Noto Sans Bengali', 'Nirmala UI', sans-serif;
+  background: #fff;
+  padding: 180px 220px 180px 180px;
+}
+
+@media print {
+  @page {
+    margin: 1.5cm 3cm;
+  }
+  body {
+    padding: 0;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+}
+
+th, td {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 6px 4px;
+  font-size: 14px;
+  min-width: 40px;
+}
+
+th {
+  background: #fff;
+  font-weight: bold;
+}
+
+td input {
+  width: 90%;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  background: transparent;
+}
+
+td input:focus {
+  outline: 1px solid #999;
+  background: #fff9e6;
+}
+
+caption {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  caption-side: top;
+}
